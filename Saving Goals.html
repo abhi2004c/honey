@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saving Goals</title>
+    <link rel="stylesheet" href="saving.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <h2 class="header" style="font-size: 30px;">Save to achieve</h2>
+        <form action="">
+            <div class="product">
+                <p style="font-weight: bold;">What to buy?</p> 
+                <input  type="text" placeholder="Enter what to buy..">
+            </div>
+            <div class="rangexD">
+                <p>What is the cost of the above mentioned product?</p>
+                <input type="range" min="100000" max="10000000"  placeholder="Cost of the product.." class="range" id="rangebutton">
+                <p>Value: <span id="demo"></span></p>
+                <input type="number"  placeholder="Or write The value here" id="ValueName">
+            </div>
+            <div>
+                <p class="product1">In how much time you would like to buy the particular product </p>
+                <input  type="text"placeholder="Enter time in months">
+            </div>
+            <div class="totalamount">
+                <p>Amount of money to be saved per month for the accomplishment of your desired product:</p>
+                <p>Value:<span id="Money"></span></p>
+            </div>
+        </form>
+        <script src="script2.js"></script>
+    </div> 
+</body>
+</html>
